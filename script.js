@@ -1,21 +1,13 @@
+
 function generate() {
-  const input = document.getElementById("input").value.trim();
-  const output = document.getElementById("output");
+    const input = document.getElementById("input").value;
+    const output = document.getElementById("output");
 
-  if (!input) {
-    output.innerText = "⚠️ Please write something first.";
-    return;
-  }
+    if (!input.trim()) {
+        output.innerText = "Please type something!";
+        return;
+    }
 
-  const responses = [
-    `💡 "${input}" is your sign — go act on it.`,
-    `🚀 Every idea like "${input}" holds power. Start now.`,
-    `👑 You're ready for "${input}". Believe it.`,
-    `✨ "${input}" can shift your entire week. Move forward.`,
-    `🖤 Stay focused on "${input}". You’re building something powerful.`,
-    `🔥 "${input}" deserves execution, not perfection. Begin now.`
-  ];
-
-  const result = responses[Math.floor(Math.random() * responses.length)];
-  output.innerText = result;
+    // Simuleer AI reactie (echt AI kan later via API)
+    output.innerText = "✨ Stay focused. You're building your dream life. ✨";
 }

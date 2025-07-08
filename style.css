@@ -1,38 +1,55 @@
+
 body {
-  background: #000;
-  color: #fff;
-  font-family: 'Helvetica Neue', sans-serif;
-  text-align: center;
-  padding: 2rem;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
 }
-
+header h1 {
+    color: gold;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
 textarea {
-  width: 80%;
-  max-width: 600px;
-  height: 100px;
-  padding: 1rem;
-  font-size: 1rem;
-  border-radius: 12px;
-  border: none;
-  margin-top: 1rem;
+    width: 90%;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
 }
-
 button {
-  background: gold;
-  padding: 0.75rem 2rem;
-  margin-top: 1rem;
-  font-weight: bold;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  color: #000;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: gold;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
 }
-
 #output {
-  margin-top: 2rem;
-  background: #111;
-  padding: 1rem;
-  border-radius: 10px;
-  color: gold;
-  font-style: italic;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #111;
+    border-radius: 6px;
+}
+.buttons {
+    margin-top: 30px;
+}
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #aaa;
 }
