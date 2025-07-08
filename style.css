@@ -1,0 +1,38 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+textarea {
+  width: 80%;
+  max-width: 600px;
+  height: 100px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  margin-top: 1rem;
+}
+
+button {
+  background: gold;
+  padding: 0.75rem 2rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #000;
+}
+
+#output {
+  margin-top: 2rem;
+  background: #111;
+  padding: 1rem;
+  border-radius: 10px;
+  color: gold;
+  font-style: italic;
+}
